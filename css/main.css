@@ -428,7 +428,7 @@ p {
 }
 
 .address-wrap {
-  margin-right: 70px;
+  margin-right: 90px;
 }
 
 .footer__logo {
@@ -554,6 +554,7 @@ p {
 }
 
 .button--subscribe {
+  width: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -698,7 +699,7 @@ p {
   margin-top: 11px;
   margin-bottom: 11px;
 }
-.form-field:focus-within .modal-form__icon {
+.modal-form__field:focus-within .modal-form__icon {
   fill: #2196f3;
 }
 
@@ -773,6 +774,9 @@ p {
 }
 
 .checkbox__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -809,6 +813,9 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #2196f3;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  margin-left: 4px;
 }
 
 .button--submit {

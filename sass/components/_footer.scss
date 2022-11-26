@@ -9,7 +9,7 @@
 }
 
 .address-wrap {
-  margin-right: 70px;
+  margin-right: 93px;
 }
 
 .footer__logo {
@@ -100,10 +100,11 @@
 }
 
 .button--subscribe {
+  width: 200px;
   display: flex;
   gap: 10px;
   align-items: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 1px solid $accent-color-blue;
   padding: 10px 28px;
-  }
+}
